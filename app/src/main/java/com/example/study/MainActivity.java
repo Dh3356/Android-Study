@@ -19,7 +19,8 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //R: 리소스를 관리하는 클래스, R.id: R 안의 리소스 id를 관리하는 클래스
+        //R: 리소스를 관리하는 클래스
+        //R.id: R 안의 리소스 id를 관리하는 클래스
         Type = findViewById(R.id.Type);
         Done = findViewById(R.id.Done);
         Result = findViewById((R.id.Result));
