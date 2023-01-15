@@ -5,25 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".SubActivity">
 
     <TextView
+        android:id="@+id/tv_sub"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="아이디를 입력해주세요"
-        android:textSize="30dp"/>
-
-
-    <EditText
-        android:id="@+id/et_test"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"/>
-
+        android:text="Null"
+        android:textSize="30sp"/>
 
     <Button
-        android:id="@+id/btn_move"
+        android:id="@+id/btn_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="로그인"/>
+        android:text="뒤로가기"/>
 
 </LinearLayout>
